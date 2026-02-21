@@ -4,7 +4,7 @@ import yfinance as yf
 from datetime import datetime
 
 # ================= โซนตั้งค่า (Config) =================
-with open("token.txt", "r") as file:
+with open("token_sniper.txt", "r") as file:
     TOKEN = file.read().strip()
 CHANNEL_ID = 1470731818201518130 # เป็นตัวเลขล้วนๆ ไม่มีเครื่องหมายคำพูด
 

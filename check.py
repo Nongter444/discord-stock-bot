@@ -7,8 +7,8 @@ import mplfinance as mpf # พระเอกของเรา
 import io
 import asyncio # เพิ่มตัวนี้มาช่วยให้ทำงานลื่นขึ้น
 # --- ตั้งค่า Bot ---
-with open("token.txt", "r") as file:
-    TOKEN = file.read().strip()
+with open("token_check.txt", "r") as file:
+    BOT_TOKEN = file.read().strip()
 CHANNEL_ID = 1470731818201518130  # เลขห้อง Discord ที่จะให้บอทพ่น (คลิกขวาที่ห้อง > Copy ID)
 # รายชื่อหุ้นของคุณ (รวมจากในรูป + ที่ขอเพิ่ม)
 STOCKS = [
